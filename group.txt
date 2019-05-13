@@ -1,0 +1,5 @@
+CMPT 120 Final Project - Processing Data
+Team members: Sergii Padalka (301333953) and Tim Hu (301335602)
+Group number: 1
+		                  
+We spent around 22 hours in total in a span of four days working on the project. The work was divided equally among the two of us with both members affecting the progress of the assignment. No particular part of the project was done without the suggestion or editing of the other team member. Google docs was used to keep a backup copy of the assignment and facilitated the editing of the program. All work was done while in the presence of each other on two computers with different operating systems.

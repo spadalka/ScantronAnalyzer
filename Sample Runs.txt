@@ -1,0 +1,231 @@
+Python 3.6.2 (v3.6.2:5fd33b5926, Jul 16 2017, 20:11:06) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "copyright", "credits" or "license()" for more information.
+>>> WARNING: The version of Tcl/Tk (8.5.9) in use may be unstable.
+Visit http://www.python.org/download/mac/tcltk/ for current information.
+
+ RESTART: /Users/spadalka/Desktop/SCANTRON PROJECT/Scantron Project Hu and Padalka.py 
+
+ JUST TO TRACE, the local list of strings is:
+
+421221212122422351341
+1 1.5 1 1 1 1 1.5 1 0.5 0.5 2 2 1 2 2.5 1 1 0.5 1 1 1
+------------------------------------------------------------
+
+ JUST TO TRACE, the local list of strings is:
+
+GREAT   421221212122422351331
+AAAAA   421212212321424311331
+BBB     411211211522341232312
+CCCCCC  422231212212432344334
+DDDD    221221212121422141132
+EEE     421221211212432233334
+FFFFFF  522221233331422351312
+GGGG    421212212221422214343
+HHH     421212212221421254344
+II      421221211212422331312
+JJJJ    421121211211422252321
+K       421121211111422351341
+LLLL    422221211212532132144
+MMMM    421221212212422351114
+NNNN    421221212122422233232
+--------------------------------------------------------------------------------
+Hello and welcome to the Scantron Workatron!      
+(~Copyright Canadian-Caribbean Educational Initiative 2017~)
+--------------------------------------------------------------------------------
+The number of students is 15
+The number of questions is 21
+
+The answer key is:
+ D B A B B A B A B A B B D B B C E A C D A 
+The maximum points possible for every question are:
+ 1 1.5 1 1 1 1 1.5 1 0.5 0.5 2 2 1 2 2.5 1 1 0.5 1 1 1
+
+The maximum points possible in total are: 25.0
+
+--------------------------------------------------------------------------------
+Type ALL if you would like to process the whole class      
+Type SEL to process certain students (up to half of the whole class)
+
+Would you like to process the whole class or select students?: all
+
+Here are the results:
+
+"GREAT",24.0,96.0
+
+"AAAAA",16.0,64.0
+
+"BBB",11.5,46.0
+
+"CCCCCC",15.0,60.0
+
+"DDDD",17.0,68.0
+
+"EEE",15.5,62.0
+
+"FFFFFF",15.0,60.0
+
+"GGGG",17.0,68.0
+
+"HHH",15.5,62.0
+
+"II",19.0,76.0
+
+"JJJJ",16.5,66.0
+
+"K",19.5,78.0
+
+"LLLL",13.5,54.0
+
+"MMMM",19.5,78.0
+
+"NNNN",19.5,78.0
+
+--------------------------------------------------------------------------------
+Statistics:
+
+Maximum number of points achieved: 24.0
+
+The average score is: 16.933333333333334 or 67.73333333333333 %
+
+Number of students processed: 15
+
+Number of times each question was answered correctly:
+[13, 14, 12, 13, 10, 12, 15, 14, 8, 4, 7, 8, 13, 11, 12, 7, 6, 7, 11, 4, 4]
+
+Most difficult questions: [10, 20, 21]
+
+Distribution of points: [0, 0, 0, 0, 1, 3, 6, 4, 0, 1]
+(With respect to: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100] )
+
+--------------------------------------------------------------------------------
+Would you like to see a histogram of the distribution of points? (Y/N): y
+Would you like to do calculate the distance between two questions? (Y/N): y
+
+Please note, an input of 0 for the first question will terminate the program
+
+Input first question's number: 2
+And the second one: 7
+
+The distance between questions 2 and 7 is 1
+
+Would you like to try another distance calculation? (Y/N): 1
+Please try again: w
+Please try again: y
+
+Please note, an input of 0 for the first question will terminate the program
+
+Input first question's number: 4
+And the second one: 67
+
+The value is out of range, please try again 
+First Question: 4
+And the second one as well 
+Second Question: 21
+
+The distance between questions 4 and 21 is 13
+
+Would you like to try another distance calculation? (Y/N): n
+
+Thank you for using the program. Have a nice day!
+>>> 
+ RESTART: /Users/spadalka/Desktop/SCANTRON PROJECT/Scantron Project Hu and Padalka.py 
+
+ JUST TO TRACE, the local list of strings is:
+
+421221212122422351341
+1 1.5 1 1 1 1 1.5 1 0.5 0.5 2 2 1 2 2.5 1 1 0.5 1 1 1
+------------------------------------------------------------
+
+ JUST TO TRACE, the local list of strings is:
+
+GREAT   421221212122422351331
+AAAAA   421212212321424311331
+BBB     411211211522341232312
+CCCCCC  422231212212432344334
+DDDD    221221212121422141132
+EEE     421221211212432233334
+FFFFFF  522221233331422351312
+GGGG    421212212221422214343
+HHH     421212212221421254344
+II      421221211212422331312
+JJJJ    421121211211422252321
+K       421121211111422351341
+LLLL    422221211212532132144
+MMMM    421221212212422351114
+NNNN    421221212122422233232
+--------------------------------------------------------------------------------
+Hello and welcome to the Scantron Workatron!      
+(~Copyright Canadian-Caribbean Educational Initiative 2017~)
+--------------------------------------------------------------------------------
+The number of students is 15
+The number of questions is 21
+
+The answer key is:
+ D B A B B A B A B A B B D B B C E A C D A 
+The maximum points possible for every question are:
+ 1 1.5 1 1 1 1 1.5 1 0.5 0.5 2 2 1 2 2.5 1 1 0.5 1 1 1
+
+The maximum points possible in total are: 25.0
+
+--------------------------------------------------------------------------------
+Type ALL if you would like to process the whole class      
+Type SEL to process certain students (up to half of the whole class)
+
+Would you like to process the whole class or select students?: sel
+
+Please enter a student's name or type END to finish: Y
+Please try again: II
+Student II obtained 19.0 points
+Please enter a student's name or type END to finish: K
+Student K obtained 19.5 points
+Please enter a student's name or type END to finish: CCCCCC
+Student CCCCCC obtained 15.0 points
+Please enter a student's name or type END to finish: JJJJ
+Student JJJJ obtained 16.5 points
+Please enter a student's name or type END to finish: end
+Here are the results:
+
+"II",19.0,76.0
+
+"K",19.5,78.0
+
+"CCCCCC",15.0,60.0
+
+"JJJJ",16.5,66.0
+
+--------------------------------------------------------------------------------
+Statistics:
+
+Maximum number of points achieved: 19.5
+
+The average score is: 17.5 or 70.0 %
+
+Number of students processed: 4
+
+Number of times each question was answered correctly:
+[4, 4, 3, 2, 3, 4, 4, 4, 1, 1, 0, 2, 4, 3, 4, 3, 2, 2, 4, 1, 2]
+
+Most difficult questions: [11]
+
+Distribution of points: [0, 0, 0, 0, 0, 1, 1, 2, 0, 0]
+(With respect to: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100] )
+
+--------------------------------------------------------------------------------
+Would you like to see a histogram of the distribution of points? (Y/N): y
+Would you like to do calculate the distance between two questions? (Y/N): y
+
+Please note, an input of 0 for the first question will terminate the program
+
+Input first question's number: 5
+And the second one: 2
+
+The distance between questions 5 and 2 is 4
+
+Would you like to try another distance calculation? (Y/N): y
+
+Please note, an input of 0 for the first question will terminate the program
+
+Input first question's number: 0
+Thank you for using the program. Have a nice day!
+>>> 
